@@ -255,4 +255,52 @@ h1 {
 .social-icons a:hover {
   background-color: #007BFF;
 }
+/* ESTADISTICAS DE MIS HABILIDADES */
 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    border-bottom: 2px solid #333;
+  }
+  
+  .skills {
+    margin-top: 20px;
+  }
+  
+  .skill {
+    margin-bottom: 10px;
+  }
+  
+  .skill-name {
+    font-weight: bold;
+  }
+  
+  .skill-bar {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    height: 30px;
+    position: relative;
+  }
+  
+  .skill-level {
+    background-color: #007BFF;
+    border-radius: 5px;
+    color: #fff;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    line-height: 30px;
+  }
+  
