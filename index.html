@@ -1,14 +1,240 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba</title>
-    <link rel="stylesheet" href="style.css">  
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Hoja de Vida</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+      border-bottom: 2px solid #333;
+    }
+    h2 {
+      color: #333;
+      margin-top: 20px;
+    }
+    p {
+      margin-bottom: 10px;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .section:last-child {
+      margin-bottom: 0;
+    }
+    /* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  border-bottom: 2px solid #fff;
+  padding: 0 20px;
+}
+
+/* Estilos para las secciones */
+.section {
+  margin-bottom: 40px;
+}
+
+/* Estilos para los títulos de sección */
+h2 {
+  color: #333;
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+/* Estilos para la información personal */
+p {
+  margin-bottom: 10px;
+}
+
+/* Estilos para los enlaces */
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/* Estilos generales */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 5px 5px 0 0;
+}
+
+h1 {
+  border-bottom: 2px solid #fff;
+  padding: 0 20px;
+  margin: 0;
+}
+
+/* Estilos para las secciones */
+.section {
+  margin-bottom: 40px;
+}
+
+/* Estilos para los títulos de sección */
+h2 {
+  color: #333;
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+/* Estilos para la información personal */
+p {
+  margin-bottom: 10px;
+}
+
+/* Estilos para los enlaces */
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para la lista de habilidades */
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-list li {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+/* Estilos para los botones de contacto */
+.contact-btn {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.contact-btn:hover {
+  background-color: #0056b3;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 10px;
+    font-size: 36px;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  </style>
 </head>
 <body>
-    <p> pagina prueba </p>
-    <p> kdjfakljf </p>
+  <header>
+    <h1>Mi Hoja de Vida</h1>
+  </header>
+  <div class="container">
+    <div class="section">
+      <h2>Información Personal</h2>
+      <p><strong>Nombre:</strong> Rudy Isaías Morán Gómez</p>
+      <p><strong>Dirección:</strong> Taxisco, Santa Rosa </p>
+      <p><strong>Teléfono:</strong> 54486447</p>
+      <p><strong>Gmail:</strong> rudymoran18@gmail.com</p>
+    </div>
+    <div class="section">
+      <h2>Experiencia Laboral</h2>
+      <p><strong>Nombre de la Empresa Academia Motvall Music:</strong> Maestro de Musica - Inicio en el año 2017 /  finalice en el año 2021</p>
+      <p><strong>Nombre de la Empresa - Gimnasio Espartanos :</strong> Intructor y entrenador - Año 2022 / Año 2023</p>
+      <p>Descripción breve de las tareas y responsabilidades realizadas.</p>
+    </div>
+    <div class="section">
+      <h2>Educación</h2>
+      <p><strong>Nombre de la Institución:</strong> Título Obtenido - Fecha de graduación</p>
+      <p>Descripción breve de los logros académicos.</p>
+    </div>
+    <div class="section">
+      <h2>Habilidades</h2>
+      <p>Lista de habilidades relevantes para el trabajo.</p>
+    </div>
+  </div>
+
+    
 </body>
 </html>
