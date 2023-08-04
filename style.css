@@ -14,7 +14,7 @@ font-family: 'Poppins', sans-serif;
 
 body{
   font-family: 'Poppins', sans-serif;
-  background-color: #101610;
+  background-color: #1429e7f4;
 
 
 }
@@ -23,7 +23,6 @@ imag {
   max-width: 100%;
 }
 
-*/Respocivo 
 .conteiner {
   max-width: 1200px;
   margin: 0 auto;
@@ -46,3 +45,172 @@ imag {
   font-size: 25px;
   text-transform: uppercase;
 }
+
+.menu .navbar ul li {
+  position: relative;
+  float: left;
+
+}
+
+.menu .navbar ul li a{
+  font-size: 18px;
+  padding: 20px;
+  color: #FFFFFF;
+  display: block;
+  font-weight: 600;
+}
+
+.menu .navbar ul li a:hover {
+  color: #49BADA;
+
+}
+
+#menu {
+  display: none;
+
+}
+
+.menu-icono {
+  width: 25px;
+
+}
+
+.menu label {
+  cursor: pointer;
+  display: none;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  min-height: 70vh;
+  padding: 50px 0 0 0;
+
+}
+
+.header-content{
+  display: flex;
+  flex: 1;
+
+}
+
+.header-txt {
+  flex-basis: 50%;
+
+}
+
+.header-txt span {
+  font-size: 30px;
+  font-weight: 600;
+  color: #0230e7;
+
+}
+
+.header-txt h1 {
+  font-size: 100px;
+  color: #ffffff;
+  line-height: 1;
+  font-family: 'Bebas Neve', sans-serif;
+  margin: 10px 0 25px 0;
+}
+
+.btn-1{
+  display: inline-block;
+  padding: 13px 35px;
+  background: linear-gradient(
+    90deg,
+    rgba(78,159,215,1) 0%,
+    rgba(75,42,193,1)100%,
+  );
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 15px;
+  border-radius: 10px;
+
+    }
+
+    .about {
+      padding: 0 0 100px  0;
+      display: flex;
+      align-items: center;
+
+    }
+
+    .about-img{
+      flex-basis: 40%;
+
+    }
+    .about-img img {
+      width: 350px;
+      border-radius: 15px;
+      border: 10px solid #49BADA;
+
+    }
+
+    .about-txt {
+      flex-basis: 60%;
+    }
+  h2 {
+      font-size: 40px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+      
+    }
+  
+    .about-txt p{
+      color: #b3b3b3;
+      font-size: 17px;
+      margin-bottom: 50px;
+    }
+    .butons a{
+      margin-right: 15px;
+    }
+    
+    .porfolio{
+      padding: 50px 0;
+      text-align: center;
+
+    }
+
+    .porfolio-content{
+      margin-top: 70px;
+    }
+
+    .porfolio-1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 100px;
+    }
+    .porfolio-txt {
+      flex-basis: 50%;
+      text-align: left;
+    }
+
+    .porfolio-txt span{
+      font-size: 18px;
+      font-weight: 600;
+      display: block;
+      color: #49BADA;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .porfolio-txt h3 { 
+      color: #FFFFFF;
+      font-size: 35px;
+      text-transform: capitalize;
+      margin-bottom: 20px;
+
+    }
+    .porfolio-txt p{
+      font-size: 17px;
+      color: #ffffff;
+      margin-bottom: 25px;
+    }
+
+    .porfolio-img {
+      flex-basis: 50%;
+      text-align: center;
+    }
