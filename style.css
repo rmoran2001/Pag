@@ -214,3 +214,162 @@ imag {
       flex-basis: 50%;
       text-align: center;
     }
+
+    .porfolio-img img{
+      width: 400px;
+    }
+
+    .skills {
+      padding: 50px 0 100px 0;
+      text-align: center;
+    }
+
+    .skills-content{
+      margin-top: 70px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 100px;
+      justify-content: center;
+
+    }
+    .skills-content img {
+      width: 70px;
+    }
+
+  .footer{
+    padding: 50px 0;
+    background: linear-gradient(
+      90deg,
+      rgba(74,42,193,1)0%,
+      rgba(78,159,215,1) 100%
+
+    );
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .link h3{
+    color: #FFFFFF;
+    font-size: 17px;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  /*parte reponsiti media  query*/
+  
+  @media(max-width: 991px){
+
+    .menu{
+      padding: 20px;
+
+    }
+    .menu label {
+      display: initial;
+    }
+
+    .menu .navbar {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #49BADA;
+      display: none;
+    }
+    .menu .navbar ul li a:hover{
+      color: #101610;
+
+    }
+    .menu .navbar ul li{
+      width: 100%;
+
+    }
+    #menu:checked ~ .navbar {
+      display: initial;
+    }
+    .header{
+      min-width: 0vh;
+      padding: 100px 30px 30px 30px;
+    }
+    .header-content{
+      flex-direction: column;
+      text-align: center;
+
+    }
+    .header-txt h1 {
+      font-size: 70px;
+
+    }
+
+    .about {
+      padding: 30px;
+      flex-direction: column;
+      text-align: center;
+
+    }
+    .about-img {
+      text-align: center;
+    }
+    .about-img img {
+      width: 250px;
+      margin-bottom: 15px;
+
+    }
+    .butons a{
+      margin: 0 0 10px 0;
+
+    }
+    .porfolio {
+      padding: 30px;
+
+    }
+    .porfolio-content{
+      margin-top: 30px;
+
+    }
+    .porfolio-1 {
+      flex-direction:  column;
+     margin-bottom: 30px;
+
+    }
+    .porfolio-txt{
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .porfolio-img{
+      order: 2;
+
+    }
+    .porfolio-img img {
+      width: 250px;
+
+    }
+    .skills{
+      padding: 0 30px 30px  30px;
+
+    }
+    .skills-content{
+      margin-top: 0;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+      padding: 0 100px;
+
+    }
+
+    .footer{
+      padding: 30px;
+
+    }
+    .footer-content{
+      flex-direction: column;
+      text-align: center;
+    }
+
+  }
+
+  
+
+
+  
